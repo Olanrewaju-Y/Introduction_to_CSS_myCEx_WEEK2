@@ -1,0 +1,70 @@
+ /* WEEK TWO ASSIGNMENTS  */
+
+        .head-nav {
+            color: rgb(154, 154, 240);
+            background-color: black;
+            border-radius: 30px;
+            padding: 20px 0px 20px 0px;
+        }
+
+        .head-nav ul {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .head-nav ul li {
+            /* list-style-type: none;*/
+            list-style: none;
+            font-size: x-large;
+            margin-left: 5px;
+        }
+
+        /* section styling */
+
+        .heading-section,
+        .aboutme-section,
+        .favorite-section {
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 20px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            align-items: start;
+            flex-wrap: wrap;
+
+            button {              
+                padding: 1% 10% 1% 10%;
+                font-size: 1em;
+                text-align: center;
+                border-radius: 10px;
+                text-wrap: none;
+            };
+            img {
+                width: 50vw;
+                height: auto;
+                border-radius: 20px;
+                border: 2px solid white;
+            }
+        }
+
+        .heading-section {
+            background-color: aqua;
+            color: red;
+        }
+
+        .aboutme-section {
+            background-color: rgb(38, 77, 250);
+            color: white;
+        }
+
+        .favorite-section {
+            background-color: rgb(250, 38, 162);
+            color: rgb(251, 255, 0);
+        }
+
+
